@@ -5,6 +5,17 @@
  */
 !process.env.SKIP_ENV_VALIDATION && (await import("./src/env/server.mjs"));
 
+const isGithubAction = process.env.GITHUB_ACTIONS === "true";
+
+let assetPrefix = "/";
+let basePath = "";
+
+if (isGithubAction) {
+  const repo = process.env.GITHUB_REPOSITORY?.replace(/.*\//, "");
+  assetPrefix = `/${repo}/`;
+  basePath = `/${repo}`;
+}
+
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
@@ -17,5 +28,7 @@ const config = {
     ignoreDuringBuilds: true,
   },
   output: "standalone",
+  basePath,
+  assetPrefix,
 };
 export default config;
