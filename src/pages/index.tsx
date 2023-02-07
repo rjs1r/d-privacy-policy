@@ -25,8 +25,8 @@ const Home: NextPage = () => {
       <p className="my-6 max-w-3xl">
         The second category of data collected is mainly used for developer
         communications and personalization. Which includes collecting SMS
-        messages which are kept for a short period of time in our data servers
-        for the purpose of improving our service.
+        messages which are kept for a short period of time(less than a day at
+        most) in our data servers for the purpose of improving our service.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">Security</h1>
       <p className="my-6 max-w-3xl">
@@ -34,8 +34,7 @@ const Home: NextPage = () => {
         focus on the protection of the valuable information you provide to us,
         and so any sensitive data (such as any personal and transaction info) is
         stored encrypted in our servers. The data is only kept in our database
-        only for as long as necessary. And no data is shared with third parties
-        outside of Dmart Deals.
+        only for as long as necessary. And no data is shared with third parties.
       </p>
       <p className="my-6 max-w-3xl"></p>
       <h1 className="text-2xl font-bold md:text-3xl">Cookie Policy</h1>
