@@ -19,6 +19,7 @@ jobs:
           cache: pnpm
       - name: Build
         run: |
+          pnpm install
           pnpm run build
           pnpm run export
           touch out/.nojekyll
