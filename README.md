@@ -1,6 +1,6 @@
 # Overview
 
-Privacy policy for the dmart order tracker mobile application
+Privacy policy for the Dmart Order Tracker mobile application
 
 ---
 
