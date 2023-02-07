@@ -19,22 +19,25 @@ const Home: NextPage = () => {
       <p className="my-6 max-w-3xl">
         The first category is used to identify and authenticate you for the
         purpose of proper functionality of the app. The required information
-        such as your mobile number, and basic device id and other info; is
-        collected to uniquely identify you to show you the appropriate content.
+        such as your mobile number, device name and a device ID; is collected to
+        uniquely identify you to show you the appropriate content.
       </p>
       <p className="my-6 max-w-3xl">
-        The second category is mainly used for developer communications and
-        personalization. We collect SMS messages which are kept for a short
-        period of time in our data servers for the purpose of improving our
-        service.
+        The second category of data collected is mainly used for developer
+        communications and personalization. Which includes collecting SMS
+        messages which are kept for a short period of time in our data servers
+        for the purpose of improving our service.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">Security</h1>
       <p className="my-6 max-w-3xl">
         We value your trust in providing us your Personal Information, thus we
-        focus on the protection of the valuable information your provide to us
-        and keep it in our database only for as long as necessary, after which
-        we appropriately delete it without any trace left behind.
+        focus on the protection of the valuable information you provide to us,
+        and so any sensitive data (such as any personal and transaction info) is
+        stored encrypted in our servers. The data is only kept in our database
+        only for as long as necessary. And no data is shared with third parties
+        outside of Dmart Deals.
       </p>
+      <p className="my-6 max-w-3xl"></p>
       <h1 className="text-2xl font-bold md:text-3xl">Cookie Policy</h1>
       <p className="my-6 max-w-3xl">
         Cookies are files with small amount of data that is commonly used an
@@ -48,9 +51,8 @@ const Home: NextPage = () => {
       </h1>
       <p className="my-6 max-w-3xl">
         We may update our Privacy Policy from time to time. Thus, we advise you
-        to review this page periodically for any changes. We will notify you of
-        any changes by posting the new Privacy Policy on this page. These
-        changes are effective immediately, after they are posted on this page.
+        to review this page periodically for any changes. These changes are
+        effective immediately, after they are posted on this page.
       </p>
     </main>
   );
