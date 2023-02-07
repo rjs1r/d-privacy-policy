@@ -2,7 +2,6 @@
   "name": "privacy-policy-101",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm",
   "scripts": {
     "build": "next build",
     "export": "next export",
