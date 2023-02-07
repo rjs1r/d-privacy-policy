@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         better experience and improving our own service. The information we is
         used to identify and authenticate you for the purpose of proper
         functionality of the app. The required information such as your mobile
-        number, device name and a device ID; is collected to uniquely identify
-        you to show you the appropriate content.
+        number, device name and a device ID; is collected to authenticate you to
+        show you the appropriate content.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">Security</h1>
       <p className="my-6 max-w-3xl">
