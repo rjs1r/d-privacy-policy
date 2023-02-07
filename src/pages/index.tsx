@@ -5,7 +5,7 @@ const Home: NextPage = () => {
     <main className="py-6 px-8 md:px-64">
       <h1 className="text-2xl font-bold md:text-3xl">Privacy Policy</h1>
       <p className="my-6 max-w-3xl">
-        This Privacy Policy describes how Dmart Deals collects, uses and shares
+        This Privacy Policy describes how Dmart Order Tracker collects, uses and shares
         your personal data.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">
