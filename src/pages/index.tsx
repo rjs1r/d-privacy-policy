@@ -24,9 +24,9 @@ const Home: NextPage = () => {
       </p>
       <p className="my-6 max-w-3xl">
         The second category of data collected is mainly used for developer
-        communications and personalization. Which includes collecting SMS
-        messages which are kept for a short period of time(less than a day at
-        most) in our data servers for the purpose of improving our service.
+        communications. This includes collecting specific SMS messages relevant
+        to our service which are kept for a very short period of time in our
+        data servers after which they are deleted.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">Security</h1>
       <p className="my-6 max-w-3xl">
