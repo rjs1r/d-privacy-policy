@@ -13,20 +13,11 @@ const Home: NextPage = () => {
       </h1>
       <p className="my-6 max-w-3xl">
         The information we collect from you is used for providing you with a
-        better experience and improving our own service. The information we
-        collect from the mobile app can be divided into two categories.
-      </p>
-      <p className="my-6 max-w-3xl">
-        The first category is used to identify and authenticate you for the
-        purpose of proper functionality of the app. The required information
-        such as your mobile number, device name and a device ID; is collected to
-        uniquely identify you to show you the appropriate content.
-      </p>
-      <p className="my-6 max-w-3xl">
-        The second category of data collected is mainly used for developer
-        communications. This includes collecting specific SMS messages relevant
-        to our service which are kept for a very short period of time in our
-        data servers after which they are deleted.
+        better experience and improving our own service. The information we is
+        used to identify and authenticate you for the purpose of proper
+        functionality of the app. The required information such as your mobile
+        number, device name and a device ID; is collected to uniquely identify
+        you to show you the appropriate content.
       </p>
       <h1 className="text-2xl font-bold md:text-3xl">Security</h1>
       <p className="my-6 max-w-3xl">
